@@ -1,5 +1,9 @@
 # Customer feedback analysis dashboard
 
+## About
+
+A Streamlit dashboard that trains a TensorFlow sentiment classifier on labeled customer feedback and provides batch CSV predictions and sentiment charts.
+
 Upload a labeled CSV, train a three-class TensorFlow model, then upload another CSV for batch sentiment predictions and a chart. Training labels must be `negative`, `neutral`, or `positive`; the file needs at least 12 nonempty feedback rows and all three classes. The app reports validation accuracy from a held-out 20% of the uploaded training data. Small datasets give unreliable accuracy, so use a substantial representative dataset for meaningful results.
 
 ## Run
